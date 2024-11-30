@@ -1,0 +1,43 @@
+# Laravel default .gitignore
+
+# Ignore the vendor directory (composer packages)
+/vendor
+
+# Ignore environment file
+.env
+
+# Ignore node modules (if using Node.js for frontend)
+node_modules/
+
+# Ignore compiled files
+/public/hot
+/public/storage
+/storage/*.key
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore log files
+/storage/logs/*.log
+
+# Ignore compiled Blade templates
+/storage/framework/views/*
+
+# Ignore cache files
+/storage/framework/cache/data/*
+
+# Ignore session files
+/storage/framework/sessions/*
+
+# Ignore other Laravel-specific files
+/.phpunit.result.cache
+/.env.testing
+/.env.local
+
+# Ignore other OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Composer's vendor directory
+/composer.lock
